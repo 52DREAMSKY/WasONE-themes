@@ -4,7 +4,7 @@
         <div class="main-box">
             <div id="main-left" class="main-left">
 			<!-- 轮播 -->
-			<div class="swiper-container">
+			<!-- <div class="swiper-container">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
 						<img src="https://dreamsky-pic.oss-cn-beijing.aliyuncs.com/banner.jpg">
@@ -15,10 +15,10 @@
 						</a>
 					</div>
 				</div>
-				<!-- 切换按钮 -->
+				切换按钮
 					<div class="swiper-button-prev"><i class="iconfont icon-xiangzuojiantou swiper-button-icon"></i></div>
 					<div class="swiper-button-next"><i class="iconfont icon-xiangyoujiantou swiper-button-icon"></i></div>
-			</div>
+			</div> -->
 			<!-- 文章列表 -->
             <?php if( have_posts() ) : while( have_posts() ) : the_post(); ?>
                 <article id="article-list-box" class="article-list-box flex">
